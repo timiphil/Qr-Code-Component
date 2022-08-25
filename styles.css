@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --white;  hsl(0, 0%, 100%)
+  --Light-gray: hsl(212, 45%, 89%)
+  --Grayish-blue: hsl(220, 15%, 55%)
+  --Dark-blue: hsl(218, 44%, 22%)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ background-color: lightgray;
+ background-size: cover;
+ font-size: 15px;
+}
+
+.card {
+ width: 350px;
+ text-align: center;
+ border-radius: 20px;
+ overflow: hidden;
+ background-color: white;
+ margin:  100px auto;
+}
+
+.title {
+ color: rgb(8, 8, 47);
+ font-size: 22px;
+ line-height: 30px;
+}
+
+.Qr {
+ line-height: 25px;
+ color: rgb(139, 139, 140);
+ font-size: 15px;
+}
+
+.Qr-image {
+  border-radius: 20px;
+  size: 20px;
+}
+
+.container {
+ padding: 25px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+}
+
+.container > * {
+ margin: 0px;
+}
+
