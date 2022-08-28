@@ -55,17 +55,17 @@ background-color: Var(--light-gray);
 }
 
 .container .card-title {
-  color: rgb(29, 32, 35);
+  color: rgb(33, 36, 38);
   font-size: 15px;
   font-weight: 400;
   text-align: center;
-  filter: blur(0.8px);
+  filter: blur(0.3px);
 }
 .container .card-body {
   color: rgb(134, 141, 150);;
   font-size: 15px;
   text-align: center;
-  filter: blur(0.8px);
+  filter: blur(0.4px);
 }
 
 @media (max-width: 578px) {
